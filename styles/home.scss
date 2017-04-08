@@ -1,0 +1,73 @@
+$primary: tomato;
+
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+body{
+	background-color: white;
+	font-family: 'Lora', serif;
+  margin: 0px;
+}
+
+h1 {
+  color: $primary;
+}
+
+a{
+  color: $primary;
+}
+
+.btn{
+	background-color:$primary;
+	border-radius: 2px;
+	color:white;
+	cursor: pointer;
+	display: inline-block;
+	padding: 10px 15px;
+  margin-right: 10px;
+  margin-top: 15px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.main-container{
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+.title {
+	color: $primary;
+  font-size: 38px;
+  font-weight: 900;
+  margin-bottom: 20px;
+	margin-top: 0px;
+  text-transform: uppercase;
+}
+.text{
+	color: $primary;
+  font-size: 28px;
+	margin-bottom: 10px;
+}
+.text-holder{
+  position: absolute;
+  top: 35vh;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+}
+
+@media screen and (max-width:400px) {
+  .title{
+    font-size: 22px;
+  }
+  .text{
+    font-size: 14px;
+  }
+}
