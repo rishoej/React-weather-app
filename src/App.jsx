@@ -62,7 +62,7 @@ class App extends Component {
         btn: 'Fahrenheit'
       }));
     }
-  }*/
+  }
   render() {
     return (
       <div>Hello</div>
