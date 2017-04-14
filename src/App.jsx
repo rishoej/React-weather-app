@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 //get api data
-/*function loadAPI(api,callback) {
+function loadAPI(api,callback) {
   var xobj = new XMLHttpRequest();
   xobj.overrideMimeType("application/json");
   xobj.open('GET', api, true);
@@ -13,9 +13,9 @@ import React, {Component} from 'react';
   };
   xobj.send(null);
 }
-*/
+
 class App extends Component {
-  /*constructor(props) {
+  constructor(props) {
       super(props);
       this.state = {
           city: '',
@@ -70,7 +70,6 @@ class App extends Component {
   }
 }
 
-/*
 <div className='main-container' style={{background: 'url("images/' + this.state.main + '.jpg") no-repeat center center fixed'}}>
   <div className='text-holder'>
     <div className='title'>React Weather App</div>
@@ -79,6 +78,5 @@ class App extends Component {
     <div className='btn' onClick={this.changeType}>Switch to {this.state.btn}</div>
   </div>
 </div>
-*/
 
 export default App;
