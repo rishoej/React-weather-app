@@ -65,7 +65,14 @@ class App extends Component {
   }
   render() {
     return (
-      <div>Hello</div>
+      <div className='main-container' style={{background: 'url("images/' + this.state.main + '.jpg") no-repeat center center fixed'}}>		
+         <div className='text-holder'>		
+           <div className='title'>React Weather App</div>		
+           <div className='text'>{this.state.city}, {this.state.country}</div>		
+           <div className='text'>{Math.round(this.state.temperature)}° {this.state.type}, {this.state.description}</div>		
+           <div className='btn' onClick={this.changeType}>Switch to {this.state.btn}</div>		
+         </div>		
+      </div>      
     );
   }
 }
